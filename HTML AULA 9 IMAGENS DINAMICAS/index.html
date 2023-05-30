@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+
+    <h1>imagens que se adaptam sozinhas</h1>
+
+        <picture>
+            <source media="(max-width: 580px )" srcset="imagens/img-p.png" type="image/png">
+            <source media="(max-width: 720px )" srcset="imagens/img-m.png" type="image/png">
+            <img src="imagens/img-g.png" alt="imagem flexivel" >
+        </picture>
+
+
+    <h1>reproduzindo audio</h1>
+
+        <audio src="media/Press Fuse.mp3" controls ></audio>
+
+        <h1>reproduzindo audio com conversão</h1>
+            <audio preload="metadata"  controls loop> 
+                <source src="media/Press Fuse.mp3" type="audio/mp3">
+        </audio>
+
+
+
+
+</body>
+</html>
