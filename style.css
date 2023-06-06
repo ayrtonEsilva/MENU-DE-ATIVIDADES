@@ -20,7 +20,7 @@ h1{
 .menu{
     flex-direction: row; 
     border-radius: 7%; 
-    height: 228px;
+    height: 248px;
     width: 20%;
     background-color: rgb(0, 0, 0);
 }
