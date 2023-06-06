@@ -1,0 +1,16 @@
+body{
+    background-color: green;
+}
+h1{
+    background-color: rgb(114, 0, 107);
+    color: rgb(11, 11, 113);
+    width: 10%;
+}
+h2{
+    color: rgb(139, 3, 3);
+}
+.amarelo{
+    
+    text-align: right;   
+     
+}
