@@ -2,50 +2,67 @@
     display: flex;
     flex-direction: row;
 }
+
+
 img{
     width: 100%;
 }
 
+
 h1:hover{
-    color: aquamarine;
-    font-size: 35px;
+    color: rgb(0, 0, 0);
+    
 }
+
+
 img:hover{
     
     border: solid 1px red;
 }
+
+
 .tudo{
     width: 90%;
     border: solid 2px yellow ;
     margin: auto;
  
 }
+
+
 .card{
     border: solid 1px blue;
 }
-.star{
-    background-color: rgb(222, 222, 222);
-    border: solid 1px black;
-    width: 5%;
-}
-.star:hover{
-    
-    background-color:rgb(100, 100, 100);
 
+
+.bi{
+    font-size: 30px;
+    background-color:rgb(222, 222, 222) ;
 }
-.like{
-   background-color:rgb(222, 222, 222) ; 
-   border: solid 1px black; 
-   width: 5%;
+
+
+.bi:hover{
+    background-color: rgb(99, 99, 99);
 }
-.like:hover{
-    background-color:rgb(100, 100, 100);
+
+
+.botoes{
+    
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
 }
-.deslike{
-    background-color: rgb(222, 222, 222);
-    border: solid 1px black; 
-    width: 5%;
+
+
+.titulo{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    
 }
-.deslike:hover{
-    background-color:rgb(99, 99, 99);
+h1{
+    
+    width: 70%;
 }
+
