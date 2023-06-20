@@ -1,30 +1,134 @@
 body{
-    background-color: rgb(13, 2, 65);
+    background-color: rgb(255, 255, 255);
 }
 
 li{
-    color: rgb(238, 238, 238);
+    color: rgb(101, 101, 101);
     
 }
 
 a{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 h1{
+    margin-left: 630px;
     width: 280px;
-    background-color: black;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
+.menualto{
+    border:solid 1px rgb(237, 237, 237) ;
+    height: 50px;
+    background-color: rgb(237, 237, 237);
+}
+.bi-list{
+    width: 25px;
+    display: flex;
+    font-size: 25px;
+    
+    margin-left: 255px;
+    margin-top: 11px;
+}
+.bi-list:hover{
+    background-color: rgb(202, 202, 202);
+}
+
+
+
+
+.home{
+    margin-top: -39px;
+    margin-left: 300px;
+    color: rgb(94, 94, 94);
+    
+    width: 93'px
+    
+    
+}
+
+.pesquisa{
+    display: flex;
+    border:solid 1px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 32px;
+    width: 350px;
+    margin-top: -39px;
+    margin-left: 500px;
+}
+
+
+.search{     
+    width: 20px;
+    margin-top: 7px;
+    margin-left: 6px;
+    
+    
+}
+
+
+
+
+
+
 .menu{
+    margin-left: 630px;
     flex-direction: row; 
     border-radius: 7%; 
     height: 300px;
     width: 20%;
-    background-color: rgba(12, 3, 137, 0.474);
+    background-color: rgb(255, 255, 255);
 }
-.menu:hover{
-    background-color: rgb(0, 0, 115);
-}
+    .menu:hover{
+    background-color: rgb(224, 224, 224);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .rodape{
+        background-color:rgb(219, 219, 219) ;
+        border: solid 1px rgb(190, 190, 200);
+        width: auto;
+        height: 200px;
+        margin-top: 100px;
+    }
+    .box{
+        width: 500px;
+        height: 200px;
+        
+        margin-left: 450px;
+    }
+   
+    .sobre{
+        font-size: 20PX;
+        margin-top: 50px;
+        margin-left: 210px;
+        color: rgb(84, 84, 84)
+    }
+    .contato{
+        font-size: 14px;
+        margin-top: px;
+        margin-left: 25px;
+        color: rgb(35, 35, 35)
+
+    }
+    .developed{
+        margin-left: 210px;
+        margin-top: 38px;
+        font-size: 14px;
+        color: rgb(70, 70, 70);
+        
+    } 
 
