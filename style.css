@@ -109,29 +109,33 @@ p{
         border: solid 1px rgb(190, 190, 200);
         width: auto;
         height: 200px;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .box{
         width: 500px;
-        height: 200px;        
+        height: 200px;
+        
         margin-left: 450px;
     }
    
     .sobre{
         font-size: 20PX;
-        margin-top: 50px;
+        margin-top: 0px;
         margin-left: 210px;
         color: rgb(84, 84, 84)
     }
     .contato{
-        font-size: 14px;     
+        font-size: 14px;
+        margin-top: px;
         margin-left: 25px;
         color: rgb(35, 35, 35)
+
     }
     .developed{
         margin-left: 210px;
-        margin-top: 38px;
+        margin-top: 28px;
         font-size: 14px;
-        color: rgb(70, 70, 70);   
-    } 
+        color: rgb(70, 70, 70);
+        
+    }
 
