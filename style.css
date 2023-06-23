@@ -9,7 +9,8 @@ li{
     
 }
 
-a{
+a{  
+    text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
@@ -45,13 +46,18 @@ p{
 
 
 .home{
-    margin-top: -39px;
+    margin-top: -43px;
+    
     margin-left: 300px;
     color: rgb(94, 94, 94);
+    width: 90px;   
+    font-size: 20px;
     
-    width: 93'px
-    
-    
+    border-radius: 5px;
+}
+.home:hover{
+    background-color: rgb(202, 202, 202);
+
 }
 
 .pesquisa{
@@ -60,9 +66,10 @@ p{
     background-color: rgb(255, 255, 255);
     height: 32px;
     width: 350px;
-    margin-top: -39px;
+    margin-top: -47px;
     margin-left: 500px;
     border-radius: 10px;
+    
 }
 
 
@@ -83,7 +90,7 @@ p{
     margin-left: 630px;
     flex-direction: row; 
     border-radius: 7%; 
-    height: 300px;
+    height:min-content;
     width: 20%;
     background-color: rgb(255, 255, 255);
 }

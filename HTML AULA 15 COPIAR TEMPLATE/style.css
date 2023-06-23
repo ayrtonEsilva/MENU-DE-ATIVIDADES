@@ -22,39 +22,35 @@
 .bi-list:hover{
     background-color: rgb(202, 202, 202);
 }
-
-
-
-
 .home{
-    margin-top: -39px;
+    margin-top: -43px;
+    
     margin-left: 300px;
-    color: rgb(94, 94, 94);
+    color: brown;
+    width: 90px;   
+    font-size: 20px;
     
-    width: 93'px
-    
-    
+    border-radius: 5px;
 }
-
+.home:hover{
+    background-color: rgb(202, 202, 202);
+}
 .pesquisa{
     display: flex;
     border:solid 1px rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
     height: 32px;
     width: 350px;
-    margin-top: -39px;
-    margin-left: 500px;
-    border-radius: 10px;
+    margin-top: -47px;
+    margin-left: 800px;
+    border-radius: 10px;   
 }
-
-
 .search{     
     width: 20px;
     margin-top: 7px;
-    margin-left: 6px;
-    
-    
+    margin-left: 6px;   
 }
+
 
 
 
@@ -62,16 +58,13 @@
 .alfaiate{
     border-bottom: solid 1px rgb(211, 211, 211);
     width: auto;
-    height: 60px;
-    
+    height: 60px   
 }
-
 .menubaixo{
     margin-top: 10px;
     border-bottom: solid 1px rgb(211, 211, 211);
     display: flex;
 }
-
 .bi-translate{  
     font-size: 25px;
     color: rgb(88, 88, 88);
@@ -80,14 +73,11 @@
 .bi-translate:hover{
     background-color: rgb(235, 235, 235);
 }
-
-
 .download{
     color:rgb(42, 42, 42) ;
     margin-left: 530px;
     width: 100px;
-    border-radius: 7px;
-    
+    border-radius: 7px;   
 }
 .download:hover{
     background-color: rgb(235, 235, 235);
