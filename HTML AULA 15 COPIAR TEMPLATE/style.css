@@ -108,6 +108,7 @@
     font-size: 25px;
     color: rgb(88, 88, 88);
     border-radius: 7px;
+    width: 100px;
 }
 .bi-translate:hover{
     background-color: rgb(235, 235, 235);
